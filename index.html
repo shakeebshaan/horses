@@ -46,6 +46,56 @@
 
 
 
+  <!-- counter -->
+  <style>
+  p {
+    text-align: center;
+    font-size: 44px;
+    margin-top: 0px;
+    color: red;
+  }
+  </style>
+
+
+  <br><br><br>
+
+
+
+  <script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Dec 10, 2021 15:37:25").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    // If the count down is over, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+  </script>
+
+
+
+
+
 
 
     <!--pack 2-->
@@ -223,73 +273,73 @@
       <tbody>
         <tr>
           <td>H1</td>
-          <td>AUSTRALIAN COMPANY </td>
-          <td>$1.38</td>
-          <td>+2.01</td>
-          <td>-0.36%</td>
+          <td>00.00 </td>
+          <td>00.00</td>
+          <td>+00.00</td>
+          <td>-00.00%</td>
         </tr>
         <tr>
           <td>H2</td>
-          <td>AUSENCO</td>
-          <td>$2.38</td>
-          <td>-0.01</td>
-          <td>-1.36%</td>
+          <td>00.00 </td>
+          <td>00.00</td>
+          <td>+00.00</td>
+          <td>-00.00%</td>
         </tr>
         <tr>
           <td>H3</td>
-          <td>ADELAIDE</td>
-          <td>$3.22</td>
-          <td>+0.01</td>
-          <td>+1.36%</td>
+          <td>00.00 </td>
+          <td>00.00</td>
+          <td>+00.00</td>
+          <td>-00.00%</td>
         </tr>
         <tr>
           <td>H4</td>
-          <td>ADITYA BIRLA</td>
-          <td>$1.02</td>
-          <td>-1.01</td>
-          <td>+2.36%</td>
+          <td>00.00 </td>
+          <td>00.00</td>
+          <td>+00.00</td>
+          <td>-00.00%</td>
         </tr>
         <tr>
           <td>H5</td>
-          <td>AUSTRALIAN COMPANY </td>
-          <td>$1.38</td>
-          <td>+2.01</td>
-          <td>-0.36%</td>
+          <td>00.00 </td>
+          <td>00.00</td>
+          <td>+00.00</td>
+          <td>-00.00%</td>
         </tr>
         <tr>
           <td>H6</td>
-          <td>AUSENCO</td>
-          <td>$2.38</td>
-          <td>-0.01</td>
-          <td>-1.36%</td>
+          <td>00.00 </td>
+          <td>00.00</td>
+          <td>+00.00</td>
+          <td>-00.00%</td>
         </tr>
         <tr>
           <td>H7</td>
-          <td>ADELAIDE</td>
-          <td>$3.22</td>
-          <td>+0.01</td>
-          <td>+1.36%</td>
+          <td>00.00 </td>
+          <td>00.00</td>
+          <td>+00.00</td>
+          <td>-00.00%</td>
         </tr>
         <tr>
           <td>H8</td>
-          <td>ADITYA BIRLA</td>
-          <td>$1.02</td>
-          <td>-1.01</td>
-          <td>+2.36%</td>
+          <td>00.00 </td>
+          <td>00.00</td>
+          <td>+00.00</td>
+          <td>-00.00%</td>
         </tr>
         <tr>
           <td>H9</td>
-          <td>AUSTRALIAN COMPANY </td>
-          <td>$1.38</td>
-          <td>+2.01</td>
-          <td>-0.36%</td>
+          <td>00.00 </td>
+          <td>00.00</td>
+          <td>+00.00</td>
+          <td>-00.00%</td>
         </tr>
         <tr>
           <td>H10</td>
-          <td>AUSENCO</td>
-          <td>$2.38</td>
-          <td>-0.01</td>
-          <td>-1.36%</td>
+          <td>00.00 </td>
+          <td>00.00</td>
+          <td>+00.00</td>
+          <td>-00.00%</td>
         </tr>
 
       </tbody>
